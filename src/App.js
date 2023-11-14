@@ -2,15 +2,21 @@
 import './App.css';
 // import TooltipTag from './TooltipTag';
 // import BoxModel from "./BoxModel";
-import LoginWithGoogle from './LoginWithGoogle';
+// import LoginWithGoogle from './LoginWithGoogle';
+// import SelectOption from './SelectOption';
+import DisplayData from './DisplayData';
+// import DropDown from './ DropDown';
 function App() {
   return (
     <div className="App">
-      <LoginWithGoogle/>
+      {/* <DropDown /> */}
+      <DisplayData />
+      {/* <SelectOption/> */}
+      {/* <LoginWithGoogle/> */}
       {/* <BoxModel/> */}
 
       {/* <TooltipTag/> */}
-     
+
     </div>
   );
 }
